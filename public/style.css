@@ -1,0 +1,38 @@
+h1{
+	text-align: center;
+	color: #00ff00;
+	clear: both;
+}
+nav{
+	float:right;
+}
+nav li{
+	display: inline;
+	list-style: none;
+	padding: 10px;
+}
+nav li a{
+	color: #88cc00;
+	text-decoration: none;
+	font-size: 20px;
+}
+nav li a:hover{
+	background-color: #ccccff;
+	color: #2244ff;
+}
+body{
+	text-align: center;
+	background-color: #000000;
+}
+p{
+	color: #999999;
+}
+img{
+	width:100%;
+	height:100%;
+	position: relative;
+	margin: 0 auto;
+}
+form input{
+	display: inline;
+}

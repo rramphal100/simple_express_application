@@ -1,0 +1,15 @@
+{
+  "name": "simple_express_app",
+  "version": "1.0.0",
+  "description": "Simple Express App to be submitted for classwork.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Ramphal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0"
+  }
+}
