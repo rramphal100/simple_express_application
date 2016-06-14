@@ -3,7 +3,7 @@ var exphbs = require("express-handlebars");
 
 var app = express();
 
-var titles = ["Home", "About", "Donate"];
+var titles = ["Ryan's Simple Express Application", "About Ryan's Simple Express Application", "Donate to UNICEF"];
 
 app.use(express.static(__dirname + "/public"));
 
