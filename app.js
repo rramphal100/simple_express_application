@@ -2,6 +2,9 @@ var express = require("express");
 var exphbs = require("express-handlebars");
 
 var app = express();
+
+var titles = ["Home", "About", "Donate"];
+
 app.use(express.static(__dirname + "/public"));
 
 app.engine("handlebars", exphbs({defaultLayout: "main"}));
@@ -12,13 +15,13 @@ app.listen(80, function(){
 });
 
 app.get("/", function(req,res){
-	res.render("home");
+	res.render("home", {title: titles[0]});
 });
 
 app.get("/about", function(req,res){
-	res.render("about");
+	res.render("about", {title: titles[1]});
 });
 
 app.get("/donate", function(req,res){
-	res.render("donate");
+	res.render("donate", {title: titles[2]});
 });

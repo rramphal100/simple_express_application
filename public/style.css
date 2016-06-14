@@ -33,6 +33,11 @@ img{
 	position: relative;
 	margin: 0 auto;
 }
+body{
+	background-image: url("img.jpg");
+	background-size: 100%;
+	background-color: #000000;
+}
 form input{
 	display: inline;
 }
